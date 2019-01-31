@@ -17,19 +17,16 @@ ant -v
 ```
 
 #### Install Ivy
-Download and install Apache Ivy (version 2.4.0) from:
-
-http://archive.apache.org/dist/ant/ivy/2.4.0/apache-ivy-2.4.0-bin.zip
-
-_**Note:** This is the windows version. If you're on a *nix-based OS, then download the gzipped tarball. I'm having you use a slightly older version. The current version is 2.5.0-RC1, but I try to only have you use GA releases of the tools._
-
 Unlike Ant, we don't generally use Ivy as a standalone tool. Instead, we use it as a plugin for Ant, which means that it extends Ant's existing capabilities. This means that it requires a little bit of work to deploy, although that work is fairly painless:
 
 1. Change into the [tools](tools) directory that was included in the cloned Git repository.
 2. Run the Ant script with the default target: `ant`
 3. Copy the [ivy.jar](tools/ivy/ivy.jar) file from the [tools/ivy](tools/ivy) directory to your `<ANT-HOME>/lib` directory.
 4. Run the ant script with the `go-nodeps` target to confirm that Ivy works:
-  `ant go-nodeps`  
+  `ant go-nodeps`
+
+_**Note:** We're using version 2.4.0 of Ivy, which is a slightly older version. The current version is 2.5.0-RC1, but I try to only have you use GA releases of the tools._
+  
 
 ### Complete the Build Script
 In this section, you will get some basic experience in writing Ant scripts. You will focus on completing the sections of the files -- `build.xml` and `ivy.xml` -- marked with **TODO** comments.
@@ -111,5 +108,5 @@ java -jar build/libs/hello-world-all-1.0-SNAPSHOT.jar
 
 ## Deliverables
 1. Add your screen captures to a new [images](images) directory.
-2. Update the file, [SUBMISSIONS.md](SUBMISSIONS.MD).
-3. Commit all of your code changes, the [images](images) directory, and the updated [SUBMISSIONS.md](SUBMISSIONS.MD) to your remote Github repository.
+2. Update the file, [SUBMISSION.md](SUBMISSION.MD).
+3. Commit all of your code changes, the [images](images) directory, and the updated [SUBMISSION.md](SUBMISSION.MD) to your remote Github repository.
