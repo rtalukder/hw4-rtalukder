@@ -26,7 +26,7 @@ Unlike Ant, we don't generally use Ivy as a standalone tool. Instead, we use it 
   `ant go-nodeps`
 
 _**Note:** We're using version 2.4.0 of Ivy, which is a slightly older version. The current version is 2.5.0-RC1, but I try to only have you use GA releases of the tools._
-  
+
 
 ### Complete the Build Script
 In this section, you will get some basic experience in writing Ant scripts. You will focus on completing the sections of the files -- `build.xml` and `ivy.xml` -- marked with **TODO** comments.
@@ -108,5 +108,5 @@ java -jar build/libs/hello-world-all-1.0-SNAPSHOT.jar
 
 ## Deliverables
 1. Add your screen captures to a new [images](images) directory.
-2. Update the file, [SUBMISSION.md](SUBMISSION.MD).
-3. Commit all of your code changes, the [images](images) directory, and the updated [SUBMISSION.md](SUBMISSION.MD) to your remote Github repository.
+2. Update the file, [SUBMISSION.md](SUBMISSION.md).
+3. Commit all of your code changes, the [images](images) directory, and the updated [SUBMISSION.md](SUBMISSION.md) to your remote Github repository.
