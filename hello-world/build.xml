@@ -58,7 +58,7 @@
 	  <mkdir dir="${classes.test.dir}"/>
 	  <javac srcdir="${src.test.dir}" destdir="${classes.test.dir}">
 	    <!--
-		TODO: Define the classpath to be a combination of the 'compile.classpath' fileset
+		TODO: Define the classpath to be a combination of the 'test.classpath' fileset
 		created by the "resolve" target above, a pathelement of the 'classes.dir' property,
 		and a second pathelement of the 'classes.test.dir' property.
 		-->
